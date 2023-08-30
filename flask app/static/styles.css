@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgb(251, 251, 251);
+}
+
+.loginbox {
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 1cm;
+  padding: 45px;
+  background-color: rgb(255, 255, 255);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  transform: translateY(+50%);
+  top: 50%;
+}
+
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: rgb(47, 8, 84);
+  border-radius: 0.5cm;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 109, 234);
+  border-radius: 1cm;
+  padding: 15px;
+  transition: background-color 0.3s ease, font-size 0.5s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: rgb(15, 94, 213);
+  font-size: x-large;
+}
+
+button:active {
+  background-color: rgb(5, 63, 149);
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  color: blueviolet;
+}
